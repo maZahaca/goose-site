@@ -3,7 +3,7 @@ var gulp = require('gulp'),
     autoprefixer = require('gulp-autoprefixer');
 
 // sass
-gulp.task('default', function () {
+gulp.task('sass', function () {
     return gulp.src('web/css/common.scss')
         .pipe(sass())
         .pipe(autoprefixer({
@@ -17,3 +17,5 @@ gulp.task('copy', function () {
     return gulp.src('node_modules/normalize.css/normalize.css')
         .pipe(gulp.dest('web/css/'));
 });
+
+gulp.task('default', ['sass', 'copy']);

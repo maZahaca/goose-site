@@ -10,5 +10,5 @@ composer install
 
 ### Web components
 ```
-npm i && gulp
+npm i && npm run build
 ```
