@@ -35,3 +35,12 @@
 
 # Composer PHAR
 /composer.phar
+
+# NPM modules
+/node_modules
+/web/css/common.css
+/web/css/normalize.css
+
+# Build
+/build
+/deploy.yml
