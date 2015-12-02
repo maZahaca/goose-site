@@ -12,3 +12,8 @@ composer install
 ```
 npm i && npm run build
 ```
+
+### Prepare DB
+```
+./app/console doctrine:migrations:migrate
+```
