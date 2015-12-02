@@ -40,7 +40,12 @@
 /node_modules
 /web/css/common.css
 /web/css/normalize.css
+/web/css/animate.min.css
 
 # Build
 /build
 /deploy.yml
+
+# Web
+/web/js/*
+!web/js/.gitkeep
